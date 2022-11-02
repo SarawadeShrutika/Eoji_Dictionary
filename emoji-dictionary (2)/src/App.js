@@ -34,7 +34,7 @@ export default function App() {
     setmeaning(meaning);
   }
   return (
-    <div className="App">
+    <div id="App">
       <h1>Emoji Meaning</h1>
       <input onChange={emojiInputHandler}></input>
 
@@ -51,6 +51,8 @@ export default function App() {
           </span>
         );
       })}
+      <h3>About</h3>
+      <p>You will know the meaning of the mentioned Emoji!!!</p>
     </div>
   );
 }
